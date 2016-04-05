@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _pie = [[PieView alloc] initWithFrame:CGRectMake((kScreenWidth - 200) * 0.5f, 100, 200, 200) dataItems:@[@1, @4, @5] colorItems:@[[UIColor redColor], [UIColor greenColor], [UIColor blueColor]]];
+    _pie = [[PieView alloc] initWithFrame:CGRectMake((kScreenWidth - 200) * 0.5f, 100, 200, 200) dataItems:@[@4, @1, @5] colorItems:@[[UIColor redColor], [UIColor greenColor], [UIColor blueColor]]];
     [self.view addSubview:_pie];
     
     // Do any additional setup after loading the view, typically from a nib.
