@@ -43,6 +43,7 @@
             _total += [dataItems[i] floatValue];
         }
         
+        //线的半径为扇形半径的一半，线宽是扇形半径，这样就能画出圆形了
         //2.背景路径
         CGFloat bgRadius = radiusBasic * 0.5;
         UIBezierPath *bgPath = [UIBezierPath bezierPathWithArcCenter:centerPoint
